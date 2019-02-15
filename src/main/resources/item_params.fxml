@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="29.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerItem">
+   <children>
+      <CheckBox fx:id="cbItemOpen" layoutX="14.0" layoutY="6.0" mnemonicParsing="false" selected="true" />
+      <TextField fx:id="tfItemKey" layoutX="35.0" layoutY="3.0" prefHeight="23.0" prefWidth="206.0" />
+      <TextField fx:id="tfItemValue" layoutX="241.0" layoutY="3.0" prefHeight="23.0" prefWidth="511.0" />
+   </children>
+</AnchorPane>

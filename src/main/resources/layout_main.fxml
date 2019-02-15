@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerMain">
+    <ImageView fx:id="ivMain" fitHeight="600.0" fitWidth="700.0" layoutX="150.0" layoutY="70.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+        <rotationAxis>
+            <Point3D />
+        </rotationAxis>
+    </ImageView>
+    <Button layoutX="647.0" layoutY="701.0" mnemonicParsing="false" text="Button" />
+    <Label layoutX="416.0" layoutY="705.0" text="Label" />
+   <Button fx:id="btnBlack" layoutX="70.0" layoutY="21.0" mnemonicParsing="false" text="返回" />
+   <Button layoutX="878.0" layoutY="21.0" mnemonicParsing="false" text="编辑" />
+</AnchorPane>
